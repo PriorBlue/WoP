@@ -30,6 +30,7 @@ ModelImporter:
     100044: PlantDestroyed
     100046: Stack2Broken
     100048: Stack2Rubble
+    100050: Plane
     400000: //RootNode
     400002: HoldingTank1
     400004: HoldingTank2
@@ -55,6 +56,7 @@ ModelImporter:
     400044: PlantDestroyed
     400046: Stack2Broken
     400048: Stack2Rubble
+    400050: Plane
     2300000: HoldingTank1
     2300002: HoldingTank2
     2300004: MainBuilding
@@ -76,6 +78,7 @@ ModelImporter:
     2300036: NuclearPlantGround
     2300038: Stack2Broken
     2300040: Stack2Rubble
+    2300042: Plane
     3300000: HoldingTank1
     3300002: HoldingTank2
     3300004: MainBuilding
@@ -97,6 +100,7 @@ ModelImporter:
     3300036: NuclearPlantGround
     3300038: Stack2Broken
     3300040: Stack2Rubble
+    3300042: Plane
     4300000: PowerPole 0
     4300002: PowerPole 1
     4300004: PowerPole 2
@@ -118,6 +122,7 @@ ModelImporter:
     4300036: Stack2Rubble
     4300038: Stack2Broken
     4300040: Cube
+    4300042: Plane
     9500000: //RootNode
   materials:
     importMaterials: 1
