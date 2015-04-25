@@ -1,34 +1,30 @@
-# =============== #
-# Unity generated #
-# =============== #
-Temp/
-Obj/
-UnityGenerated/
-Library/
-Library2/
- 
-# ===================================== #
-# Visual Studio / MonoDevelop generated #
-# ===================================== #
-ExportedObj/
-*.svd
-*.userprefs
-*.csproj
-*.pidb
+client/Temp/*
+client/Library/*
+client/Build/*
+!client/Library/*.asset
+client/*.pidb
+client/*.userprefs
+client/Assembly-*
+client/*.sln
+client/obj
+
+launcher/Temp/*
+launcher/Library/*
+launcher/Build/*
+!launcher/Library/*.asset
+launcher/*.pidb
+launcher/*.userprefs
+launcher/Assembly-*
+launcher/*.sln
+launcher/obj
+
+*.log
+/builds/
+unit_results.xml
+*.pdb
 *.suo
-*.sln
 *.user
-*.unityproj
-*.booproj
- 
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
+TestResults/
+opencover.xml
+CodeCoverage/
+.sonar/
