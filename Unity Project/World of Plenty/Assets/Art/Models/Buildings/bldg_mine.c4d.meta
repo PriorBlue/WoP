@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 1be6d518fbb144fa0be5e4ef9b9f26b6
+timeCreated: 1429990102
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.10
+    100006: Cube.2
+    100008: Cube.3
+    100010: Cube.4
+    100012: Cube.5
+    100014: Cube.6
+    100016: Cube.7
+    100018: Cube.8
+    100020: Cube.9
+    100022: Landscape
+    100024: minecart
+    100026: n-Side
+    100028: n-Side.2
+    100030: Plane
+    100032: Rail1
+    100034: Rail2
+    100036: Spline
+    100038: Spline.2
+    100040: Support Archway
+    100042: Support Archway.1
+    100044: Support Archway.2
+    100046: Symmetry
+    100048: Symmetry.2
+    100050: Symmetry.3
+    100052: minecart.1
+    100054: minecart.2
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.10
+    400006: Cube.2
+    400008: Cube.3
+    400010: Cube.4
+    400012: Cube.5
+    400014: Cube.6
+    400016: Cube.7
+    400018: Cube.8
+    400020: Cube.9
+    400022: Landscape
+    400024: minecart
+    400026: n-Side
+    400028: n-Side.2
+    400030: Plane
+    400032: Rail1
+    400034: Rail2
+    400036: Spline
+    400038: Spline.2
+    400040: Support Archway
+    400042: Support Archway.1
+    400044: Support Archway.2
+    400046: Symmetry
+    400048: Symmetry.2
+    400050: Symmetry.3
+    400052: minecart.1
+    400054: minecart.2
+    2300000: Cube
+    2300002: Cube.2
+    2300004: Cube.3
+    2300006: Cube.5
+    2300008: Cube.6
+    2300010: Cube.8
+    2300012: Cube.9
+    2300014: Landscape
+    2300016: minecart
+    2300018: Plane
+    2300020: Rail1
+    2300022: Rail2
+    2300024: minecart.1
+    2300026: minecart.2
+    3300000: Cube
+    3300002: Cube.2
+    3300004: Cube.3
+    3300006: Cube.5
+    3300008: Cube.6
+    3300010: Cube.8
+    3300012: Cube.9
+    3300014: Landscape
+    3300016: minecart
+    3300018: Plane
+    3300020: Rail1
+    3300022: Rail2
+    3300024: minecart.1
+    3300026: minecart.2
+    4300000: Rail1
+    4300002: Rail2
+    4300004: Plane
+    4300006: Landscape
+    4300008: Cube
+    4300010: Cube.2
+    4300012: Cube.3
+    4300014: Cube.5
+    4300016: Cube.6
+    4300018: Cube.8
+    4300020: Cube.9
+    4300022: minecart
+    4300024: minecart.1
+    4300026: minecart.2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
