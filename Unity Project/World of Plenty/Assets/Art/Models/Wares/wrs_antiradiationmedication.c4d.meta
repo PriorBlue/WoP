@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: a3c12193093284b57855800a718c80e2
+timeCreated: 1429976853
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box
+    100004: Cloner
+    100006: Lid
+    100008: plunger
+    100010: plunger.2
+    100012: plunger.3
+    100014: Syringe1
+    100016: Syringe2
+    100018: Syringe3
+    100020: tube
+    100022: tube.2
+    100024: tube.3
+    100026: yellow_slime
+    100028: yellow_slime.2
+    100030: yellow_slime.3
+    400000: //RootNode
+    400002: Box
+    400004: Cloner
+    400006: Lid
+    400008: plunger
+    400010: plunger.2
+    400012: plunger.3
+    400014: Syringe1
+    400016: Syringe2
+    400018: Syringe3
+    400020: tube
+    400022: tube.2
+    400024: tube.3
+    400026: yellow_slime
+    400028: yellow_slime.2
+    400030: yellow_slime.3
+    2300000: Box
+    2300002: Lid
+    2300004: plunger
+    2300006: plunger.2
+    2300008: plunger.3
+    2300010: tube
+    2300012: tube.2
+    2300014: tube.3
+    2300016: yellow_slime
+    2300018: yellow_slime.2
+    2300020: yellow_slime.3
+    3300000: Box
+    3300002: Lid
+    3300004: plunger
+    3300006: plunger.2
+    3300008: plunger.3
+    3300010: tube
+    3300012: tube.2
+    3300014: tube.3
+    3300016: yellow_slime
+    3300018: yellow_slime.2
+    3300020: yellow_slime.3
+    4300000: yellow_slime
+    4300002: plunger
+    4300004: tube
+    4300006: yellow_slime.2
+    4300008: plunger.2
+    4300010: tube.2
+    4300012: yellow_slime.3
+    4300014: plunger.3
+    4300016: tube.3
+    4300018: Box
+    4300020: Lid
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
