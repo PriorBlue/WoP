@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: cdf10c315d7ee4e0eb66a7afa8d8d91d
+timeCreated: 1429961617
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HoldingTank1
+    100004: HoldingTank2
+    100006: MainBuilding
+    100008: PowerPole
+    100010: PowerPole 0
+    100012: PowerPole 1
+    100014: PowerPole 10
+    100016: PowerPole 11
+    100018: PowerPole 2
+    100020: PowerPole 3
+    100022: PowerPole 4
+    100024: PowerPole 5
+    100026: PowerPole 6
+    100028: PowerPole 7
+    100030: PowerPole 8
+    100032: PowerPole 9
+    100034: PowerPoleCloner
+    100036: Stack1
+    100038: Stack2
+    100040: Cube
+    100042: NuclearPlantGround
+    100044: PlantDestroyed
+    100046: Stack2Broken
+    100048: Stack2Rubble
+    400000: //RootNode
+    400002: HoldingTank1
+    400004: HoldingTank2
+    400006: MainBuilding
+    400008: PowerPole
+    400010: PowerPole 0
+    400012: PowerPole 1
+    400014: PowerPole 10
+    400016: PowerPole 11
+    400018: PowerPole 2
+    400020: PowerPole 3
+    400022: PowerPole 4
+    400024: PowerPole 5
+    400026: PowerPole 6
+    400028: PowerPole 7
+    400030: PowerPole 8
+    400032: PowerPole 9
+    400034: PowerPoleCloner
+    400036: Stack1
+    400038: Stack2
+    400040: Cube
+    400042: NuclearPlantGround
+    400044: PlantDestroyed
+    400046: Stack2Broken
+    400048: Stack2Rubble
+    2300000: HoldingTank1
+    2300002: HoldingTank2
+    2300004: MainBuilding
+    2300006: PowerPole 0
+    2300008: PowerPole 1
+    2300010: PowerPole 10
+    2300012: PowerPole 11
+    2300014: PowerPole 2
+    2300016: PowerPole 3
+    2300018: PowerPole 4
+    2300020: PowerPole 5
+    2300022: PowerPole 6
+    2300024: PowerPole 7
+    2300026: PowerPole 8
+    2300028: PowerPole 9
+    2300030: Stack1
+    2300032: Stack2
+    2300034: Cube
+    2300036: NuclearPlantGround
+    2300038: Stack2Broken
+    2300040: Stack2Rubble
+    3300000: HoldingTank1
+    3300002: HoldingTank2
+    3300004: MainBuilding
+    3300006: PowerPole 0
+    3300008: PowerPole 1
+    3300010: PowerPole 10
+    3300012: PowerPole 11
+    3300014: PowerPole 2
+    3300016: PowerPole 3
+    3300018: PowerPole 4
+    3300020: PowerPole 5
+    3300022: PowerPole 6
+    3300024: PowerPole 7
+    3300026: PowerPole 8
+    3300028: PowerPole 9
+    3300030: Stack1
+    3300032: Stack2
+    3300034: Cube
+    3300036: NuclearPlantGround
+    3300038: Stack2Broken
+    3300040: Stack2Rubble
+    4300000: PowerPole 0
+    4300002: PowerPole 1
+    4300004: PowerPole 2
+    4300006: PowerPole 3
+    4300008: PowerPole 4
+    4300010: PowerPole 5
+    4300012: PowerPole 6
+    4300014: PowerPole 7
+    4300016: PowerPole 8
+    4300018: PowerPole 9
+    4300020: PowerPole 10
+    4300022: PowerPole 11
+    4300024: HoldingTank1
+    4300026: HoldingTank2
+    4300028: MainBuilding
+    4300030: Stack1
+    4300032: Stack2
+    4300034: NuclearPlantGround
+    4300036: Stack2Rubble
+    4300038: Stack2Broken
+    4300040: Cube
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
