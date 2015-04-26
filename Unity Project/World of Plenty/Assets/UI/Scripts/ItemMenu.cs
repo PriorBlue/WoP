@@ -12,15 +12,17 @@ public class ItemMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		AddItem("brick", "Bricks", 99, 7, 9, "brick_img");
-		AddItem("drugs", "Drugs", 7, 120, 140, "drugs_img");
-		AddItem("oil", "Oil", 900, 11, 14, "drugs_img");
-		AddItem("waste", "Waste", 999, 3, 4, "drugs_img");
-		AddItem("dirt", "Dirt", 99999, 1, 2, "drugs_img");
+		AddItem("geiger", "Geiger", 99, 7, 9, "icon_geiger");
+		AddItem("antiradiation", "Antiradiation", 7, 120, 140, "icon_antiradiation");
+		AddItem("template", "Template", 900, 11, 14, "icon_template");
+		AddItem("bushknife", "Bushknife", 999, 3, 4, "icon_bushknife");
+		AddItem("pickaxe", "Pickaxe", 99, 1, 2, "icon_pickaxe");
+		AddItem("bricks", "Bricks", 999, 1, 2, "icon_bricks");
+		AddItem("fuelcan", "Fuelcan", 999, 1, 2, "icon_fuelcan");
 
-		SetAmount("drugs", 99);
-		SetSellPrice("drugs", 3);
-		SetBuyPrice("drugs", 5);
+		//SetAmount("drugs", 99);
+		//SetSellPrice("drugs", 3);
+		//SetBuyPrice("drugs", 5);
 
 		//ClearItems ();
 
