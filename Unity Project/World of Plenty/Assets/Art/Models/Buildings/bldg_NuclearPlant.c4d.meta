@@ -31,6 +31,14 @@ ModelImporter:
     100046: Stack2Broken
     100048: Stack2Rubble
     100050: Plane
+    100052: Ground
+    100054: PlantPersistent
+    100056: slime
+    100058: Stacks_Broken
+    100060: Stacks_Complete
+    100062: Tanks
+    100064: CoolingTowers_Broken
+    100066: CoolingTowers_Complete
     400000: //RootNode
     400002: HoldingTank1
     400004: HoldingTank2
@@ -57,6 +65,14 @@ ModelImporter:
     400046: Stack2Broken
     400048: Stack2Rubble
     400050: Plane
+    400052: Ground
+    400054: PlantPersistent
+    400056: slime
+    400058: Stacks_Broken
+    400060: Stacks_Complete
+    400062: Tanks
+    400064: CoolingTowers_Broken
+    400066: CoolingTowers_Complete
     2300000: HoldingTank1
     2300002: HoldingTank2
     2300004: MainBuilding
@@ -79,6 +95,13 @@ ModelImporter:
     2300038: Stack2Broken
     2300040: Stack2Rubble
     2300042: Plane
+    2300044: Ground
+    2300046: slime
+    2300048: Stacks_Broken
+    2300050: Stacks_Complete
+    2300052: Tanks
+    2300054: CoolingTowers_Broken
+    2300056: CoolingTowers_Complete
     3300000: HoldingTank1
     3300002: HoldingTank2
     3300004: MainBuilding
@@ -101,6 +124,13 @@ ModelImporter:
     3300038: Stack2Broken
     3300040: Stack2Rubble
     3300042: Plane
+    3300044: Ground
+    3300046: slime
+    3300048: Stacks_Broken
+    3300050: Stacks_Complete
+    3300052: Tanks
+    3300054: CoolingTowers_Broken
+    3300056: CoolingTowers_Complete
     4300000: PowerPole 0
     4300002: PowerPole 1
     4300004: PowerPole 2
@@ -123,6 +153,13 @@ ModelImporter:
     4300038: Stack2Broken
     4300040: Cube
     4300042: Plane
+    4300044: slime
+    4300046: Ground
+    4300048: Stacks_Broken
+    4300050: Stacks_Complete
+    4300052: Tanks
+    4300054: CoolingTowers_Broken
+    4300056: CoolingTowers_Complete
     9500000: //RootNode
   materials:
     importMaterials: 1
