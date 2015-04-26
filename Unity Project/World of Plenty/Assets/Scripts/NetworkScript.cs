@@ -16,13 +16,13 @@ public class NetworkScript : MonoBehaviour {
 	// Use this for initialization
 	IEnumerator Start () {
 
-		WaresList waresList = new WaresList ();
+		//WaresList waresList = new WaresList ();
 
-		Debug.Log ("TTzpe>  "+waresList.List.ToString ());
+		//Debug.Log ("TTzpe>  "+waresList.List.ToString ());
 		
 		yield return StartCoroutine(w.Connect());
 		
-		w.SendString(waresList.List.ToString ());
+		//w.SendString(waresList.List.ToString ());
 		int i=0;
 		
 		while (true)
