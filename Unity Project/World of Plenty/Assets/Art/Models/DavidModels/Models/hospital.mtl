@@ -1,0 +1,87 @@
+# Blender MTL File: 'Foundryblend.blend'
+# Material Count: 9
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.002476 0.002476 0.002476
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.003
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.267460 0.226576 0.078647
+Ks 0.675258 0.675258 0.675258
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Materials/mat_ground-in_bldg_hospital.jpeg
+
+newmtl Material.003_NONE
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.267460 0.226576 0.078647
+Ks 0.675258 0.675258 0.675258
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Materials/mat_ground-in_bldg_hospital.jpeg
+
+newmtl Material.003_mat_concrete_bldg_waste_dump.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.267460 0.226576 0.078647
+Ks 0.675258 0.675258 0.675258
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Materials/mat_concrete_bldg_waste_dump.jpg
+
+newmtl Material.004
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.725581 0.926569
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.006
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.007
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.032732 0.032732 0.032732
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Materials/mat_parking_bldg_hospital.jpg
