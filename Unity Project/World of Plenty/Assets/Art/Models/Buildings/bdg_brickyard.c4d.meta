@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: bea714370768f48c0bb774d8b99b0df8
+timeCreated: 1430050305
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bricks
+    100004: building
+    100006: buildingground
+    100008: crane
+    100010: Cylinder
+    100012: Cylinder.1
+    100014: Cylinder.2
+    100016: Cylinder.3
+    100018: Cylinder.4
+    100020: Cylinder.5
+    100022: building.2
+    400000: //RootNode
+    400002: bricks
+    400004: building
+    400006: buildingground
+    400008: crane
+    400010: Cylinder
+    400012: Cylinder.1
+    400014: Cylinder.2
+    400016: Cylinder.3
+    400018: Cylinder.4
+    400020: Cylinder.5
+    400022: building.2
+    2300000: bricks
+    2300002: building
+    2300004: buildingground
+    2300006: crane
+    2300008: Cylinder
+    2300010: Cylinder.1
+    2300012: Cylinder.2
+    2300014: Cylinder.3
+    2300016: Cylinder.4
+    2300018: Cylinder.5
+    2300020: building.2
+    3300000: bricks
+    3300002: building
+    3300004: buildingground
+    3300006: crane
+    3300008: Cylinder
+    3300010: Cylinder.1
+    3300012: Cylinder.2
+    3300014: Cylinder.3
+    3300016: Cylinder.4
+    3300018: Cylinder.5
+    3300020: building.2
+    4300000: Cylinder.5
+    4300002: Cylinder.2
+    4300004: Cylinder.4
+    4300006: Cylinder.3
+    4300008: Cylinder
+    4300010: Cylinder.1
+    4300012: bricks
+    4300014: crane
+    4300016: building
+    4300018: buildingground
+    4300020: building.2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

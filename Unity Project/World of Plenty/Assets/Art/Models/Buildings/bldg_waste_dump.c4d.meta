@@ -262,6 +262,9 @@ ModelImporter:
     100508: lowpolybarrel.3
     100510: Plane
     100512: Plane.001
+    100514: barrels
+    100516: toxic_waste
+    100518: ground
     400000: barrelscloner2
     400002: //RootNode
     400004: lowpolybarrel
@@ -519,6 +522,9 @@ ModelImporter:
     400508: lowpolybarrel.3
     400510: Plane
     400512: Plane.001
+    400514: barrels
+    400516: toxic_waste
+    400518: ground
     2300000: lowpolybarrel
     2300002: lowpolybarrel 0
     2300004: lowpolybarrel 0.2
@@ -774,6 +780,9 @@ ModelImporter:
     2300504: lowpolybarrel.3
     2300506: Plane
     2300508: Plane.001
+    2300510: barrels
+    2300512: toxic_waste
+    2300514: ground
     3300000: lowpolybarrel
     3300002: lowpolybarrel 0
     3300004: lowpolybarrel 0.2
@@ -1029,6 +1038,9 @@ ModelImporter:
     3300504: lowpolybarrel.3
     3300506: Plane
     3300508: Plane.001
+    3300510: barrels
+    3300512: toxic_waste
+    3300514: ground
     4300000: lowpolybarrel 0
     4300002: lowpolybarrel 1
     4300004: lowpolybarrel 2
@@ -1284,6 +1296,9 @@ ModelImporter:
     4300504: lowpolybarrel.3
     4300506: lowpolybarrel.1
     4300508: lowpolybarrel.2
+    4300510: barrels
+    4300512: toxic_waste
+    4300514: ground
     9500000: //RootNode
   materials:
     importMaterials: 1
