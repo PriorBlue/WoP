@@ -32,3 +32,6 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+
+Game Server/node_modules
+Game Server/.idea
