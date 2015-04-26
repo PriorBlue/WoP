@@ -1,36 +1,67 @@
-function Wares() {
+var _ = require( 'lodash' );
 
-	this.waresList = [
-		{ name: 'clay', price: 20 },
-		{ name: 'brick', price: 20 },
-		{ name: 'trash', price: 20 },
-		{ name: 'crap metal', price: 20 },
-		{ name: 'metal', price: 20 },
-		{ name: 'wood', price: 20 },
-		{ name: 'sawn-off shotgun', price: 20 },
-		{ name: 'bush knife', price: 20 },
-		{ name: 'pick axe', price: 20 },
-		{ name: 'empty fuel can', price: 20 },
-		{ name: 'yellow slime', price: 20 },
-		{ name: 'tin can', price: 20 },
-		{ name: 'atomic cola', price: 20 },
-		{ name: 'broken cell phone', price: 20 },
-		{ name: 'copper', price: 20 },
-		{ name: 'wire', price: 20 },
-		{ name: 'electronic parts', price: 20 },
-		{ name: 'radio', price: 20 },
-		{ name: 'geiger counter', price: 20 },
-		{ name: 'flax', price: 20 },
-		{ name: 'textiles', price: 20 },
-		{ name: 'tent', price: 20 },
-		{ name: 'sneakers', price: 20 },
-		{ name: 'anti radiation medication', price: 20 }
-	];
+var wares = {
+
+	names: [
+		'clay',
+		'brick',
+		'trash',
+		'crap metal',
+		'metal',
+		'wood',
+		'sawn-off shotgun',
+		'bush knife',
+		'pick axe',
+		'empty fuel can',
+		'yellow slime',
+		'tin can',
+		'atomic cola',
+		'broken cell phone',
+		'copper',
+		'wire',
+		'electronic parts',
+		'radio',
+		'geiger counter',
+		'flax',
+		'textiles',
+		'tent',
+		'sneakers',
+		'anti radiation medication' ],
+
+	createForPlayer: function () {
+
+		return _.map(this.names, function(wareName){
+			return {
+				id: wareName.replace( / /g, '' ),
+				name:  wareName,
+				playerStock: 10
+
+			};
+		});
+
+		//return _.zipObject( [ 'id', 'name', 'stock' ], [ this.ids, this.names, _.fill( Array( this.names.length ), 10 ) ] );
+
+	},
+
+	createForMarket: function () {
+
+		return _.map(this.names, function(wareName){
+			return {
+				id: wareName.replace( ' ', '' ),
+				name:  wareName,
+				stock: 10,
+				priceSell: 8,
+				priceBuy: 10
+
+			};
+		});
+
+		//return _.zipObject( [ 'id', 'name', 'stock', 'priceSell', 'priceBuy' ], [ this.ids, this.names, _.fill( Array( this.names.length ), 100 ), _.fill( Array( this.names.length ), 8 ), _.fill( Array( this.names.length ), 10 ) ] );
+
+	}
 
 };
 
 
-
-
-module.exports(Wares);
+module.exports = wares;
 
