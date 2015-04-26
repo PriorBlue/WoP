@@ -7,6 +7,7 @@ public class ItemMenu : MonoBehaviour {
 
 	public GameObject Items;
 	public GameObject TextElement;
+	public Text Money;
 	public Sprite[] spriteList;
 	public NetworkScript NetworkAPI;
 
@@ -14,13 +15,13 @@ public class ItemMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		AddItem("geiger", "Geiger", 99, 0, 7, 9, "icon_geiger");
-		AddItem("antiradiation", "Antiradiation", 7, 0, 120, 140, "icon_antiradiation");
-		AddItem("template", "Template", 900, 0, 11, 14, "icon_template");
-		AddItem("bushknife", "Bushknife", 999, 0, 3, 4, "icon_bushknife");
-		AddItem("pickaxe", "Pickaxe", 99, 0, 1, 2, "icon_pickaxe");
-		AddItem("bricks", "Bricks", 999, 0, 1, 2, "icon_bricks");
-		AddItem("fuelcan", "Fuelcan", 999, 0, 1, 2, "icon_fuelcan");
+		//AddItem("geiger", "Geiger", 99, 0, 7, 9, "icon_geiger");
+		//AddItem("antiradiation", "Antiradiation", 7, 0, 120, 140, "icon_antiradiation");
+		//AddItem("template", "Template", 900, 0, 11, 14, "icon_template");
+		//AddItem("bushknife", "Bushknife", 999, 0, 3, 4, "icon_bushknife");
+		//AddItem("pickaxe", "Pickaxe", 99, 0, 1, 2, "icon_pickaxe");
+		//AddItem("bricks", "Bricks", 999, 0, 1, 2, "icon_bricks");
+		//AddItem("fuelcan", "Fuelcan", 999, 0, 1, 2, "icon_fuelcan");
 
 		//SetAmount("drugs", 99);
 		//SetSellPrice("drugs", 3);
@@ -38,7 +39,22 @@ public class ItemMenu : MonoBehaviour {
 	}
 
 	public void GetMessage(JSONNode json) {
-		Debug.Log (json);
+		if (json["msg"].Value == "getMarket") {
+			for(int i = 0; i < json["data"].Count; i++){
+				AddItem(
+					json["data"][i]["id"].Value,
+					json["data"][i]["name"].Value,
+					int.Parse(json["data"][i]["playerStock"].Value),
+					int.Parse(json["data"][i]["stock"]),
+				    int.Parse(json["data"][i]["priceSell"]),
+				    int.Parse(json["data"][i]["priceBuy"]),
+					"icon_" + json["data"][i]["id"].Value
+				);
+			}
+		}else if (json ["msg"].Value == "money") {
+			Money.text = "$" + json ["data"].Value;
+		}
+		Debug.Log(json);
 	}
 
 	public void AddItem(string id, string name = "None", int amount = 0, int amount2 = 0, int sell = 0, int buy = 0, string image = "none"){
