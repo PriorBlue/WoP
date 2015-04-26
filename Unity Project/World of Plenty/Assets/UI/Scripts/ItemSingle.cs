@@ -7,6 +7,7 @@ public class ItemSingle : MonoBehaviour {
 	public Text name;
 	public Image icon;
 	public Text amount;
+	public Text amount2;
 	public Text sell;
 	public Text buy;
 	public Button sell1;

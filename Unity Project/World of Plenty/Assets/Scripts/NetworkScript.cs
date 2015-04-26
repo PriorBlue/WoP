@@ -6,19 +6,23 @@ using AssemblyCSharp;
 
 public class NetworkScript : MonoBehaviour {
 
+	public ItemMenu im;
+	public WebSocket w = new WebSocket (new Uri ("ws://192.168.8.15:3000"));
+
+	public void SendMessage(string json) {
+		w.SendString(json);
+	}
+
 	// Use this for initialization
 	IEnumerator Start () {
 
-		WaresList waresList = new WaresList ();
+		//WaresList waresList = new WaresList ();
 
-		Debug.Log ("TTzpe>  "+waresList.List.ToString ());
-
-		
-		WebSocket w = new WebSocket (new Uri ("ws://localhost:3000"));
+		//Debug.Log ("TTzpe>  "+waresList.List.ToString ());
 		
 		yield return StartCoroutine(w.Connect());
 		
-		w.SendString(waresList.List.ToString ());
+		//w.SendString(waresList.List.ToString ());
 		int i=0;
 		
 		while (true)
@@ -30,14 +34,12 @@ public class NetworkScript : MonoBehaviour {
 				
 				Debug.Log ("Received: ");
 				var receivedObject = JSON.Parse(reply);
-				Debug.Log(receivedObject["item"]["name"]);
-				w.SendString("Hi there"+i++);
+				//w.SendString("Hi there"+i++);
+				im.GetMessage(receivedObject);
 
-				switch(receivedObject["event"]) {
-
-					case "connected": 
-
-
+				switch(receivedObject["msg"]) {
+					case "list":
+						//Debug.Log(receivedObject["msg"]);
 						break;
 				}
 
