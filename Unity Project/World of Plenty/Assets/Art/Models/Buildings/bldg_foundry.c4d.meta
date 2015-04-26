@@ -9,19 +9,29 @@ ModelImporter:
     100002: Cube
     100004: Cylinder
     100006: Cylinder.1
+    100008: Foundry
+    100010: Smokestack
     400000: //RootNode
     400002: Cube
     400004: Cylinder
     400006: Cylinder.1
+    400008: Foundry
+    400010: Smokestack
     2300000: Cube
     2300002: Cylinder
     2300004: Cylinder.1
+    2300006: Foundry
+    2300008: Smokestack
     3300000: Cube
     3300002: Cylinder
     3300004: Cylinder.1
+    3300006: Foundry
+    3300008: Smokestack
     4300000: Cylinder
     4300002: Cylinder.1
     4300004: Cube
+    4300006: Smokestack
+    4300008: Foundry
     9500000: //RootNode
   materials:
     importMaterials: 1

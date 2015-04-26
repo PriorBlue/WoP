@@ -33,6 +33,10 @@ ModelImporter:
     100050: Symmetry.3
     100052: minecart.1
     100054: minecart.2
+    100056: Minecarts
+    100058: Rails
+    100060: Rock
+    100062: SupportArches
     400000: //RootNode
     400002: Cube
     400004: Cube.10
@@ -61,6 +65,10 @@ ModelImporter:
     400050: Symmetry.3
     400052: minecart.1
     400054: minecart.2
+    400056: Minecarts
+    400058: Rails
+    400060: Rock
+    400062: SupportArches
     2300000: Cube
     2300002: Cube.2
     2300004: Cube.3
@@ -75,6 +83,9 @@ ModelImporter:
     2300022: Rail2
     2300024: minecart.1
     2300026: minecart.2
+    2300028: Minecarts
+    2300030: Rock
+    2300032: SupportArches
     3300000: Cube
     3300002: Cube.2
     3300004: Cube.3
@@ -89,6 +100,9 @@ ModelImporter:
     3300022: Rail2
     3300024: minecart.1
     3300026: minecart.2
+    3300028: Minecarts
+    3300030: Rock
+    3300032: SupportArches
     4300000: Rail1
     4300002: Rail2
     4300004: Plane
@@ -103,6 +117,9 @@ ModelImporter:
     4300022: minecart
     4300024: minecart.1
     4300026: minecart.2
+    4300028: Rock
+    4300030: SupportArches
+    4300032: Minecarts
     9500000: //RootNode
   materials:
     importMaterials: 1
